@@ -19,5 +19,5 @@ Contents
 .. toctree::
 
    usage
-   vesselesque/index
+   vesselesque/codebase
 
