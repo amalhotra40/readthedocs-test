@@ -12,15 +12,7 @@ build:
   tools: {python: "3.8"}
   jobs:
     pre_create_environment:
-      - cd vesselesque
-      - asdf plugin add poetry
-      - asdf install poetry latest
-      - asdf global poetry latest
-      - poetry config virtualenvs.create false
-      - pwd
-      - ls
-      - cd vesselesque
-      - cat pyproject.toml
+      - sh test.sh
     post_install:
       - poetry install
 
