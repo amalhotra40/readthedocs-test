@@ -13,7 +13,7 @@ def about_me(your_name):
     Parameters
     ----------
     your_name
-        A string indicating the name of the person.
+    your_name: A string indicating the name of the person.
     """
     return "The wise {} loves Python.".format(your_name)
 
@@ -26,8 +26,7 @@ class ExampleClass:
         Blah blah blah.
         Parameters
         ---------
-        name
-            A string to assign to the `name` instance attribute.
+        name: A string to assign to the `name` instance attribute.
         """
         self.name = name
 
