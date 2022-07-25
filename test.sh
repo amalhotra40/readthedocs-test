@@ -4,3 +4,4 @@ asdf global poetry latest
 poetry config virtualenvs.create false
 cd vesselesque
 cat pyproject.toml
+poetry install
