@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.abspath("../../vesselesque"))
 
 # -- Project information -----------------------------------------------------
 
-project = "Vessel Documentation"
+project = "vesselesque"
 copyright_info = "2022, Reactor SW @ Culture Biosciences Inc"
 author = "Reactor SW @ Culture Biosciences Inc"
 
