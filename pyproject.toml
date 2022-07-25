@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "universe"
+name = "readthedocs-test"
 version = "0.1.0"
 description = ""
 authors = ["amalhotra40 <abhinav@culturebiosciences.com>"]
