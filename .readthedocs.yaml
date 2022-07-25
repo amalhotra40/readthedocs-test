@@ -12,7 +12,7 @@ build:
   tools: {python: "3.8"}
   jobs:
     post_system_dependencies:
-      - asdf cd vesselesque
+      - cd vesselesque
     pre_create_environment:
       - asdf plugin add poetry
       - asdf install poetry latest
