@@ -19,6 +19,7 @@ build:
       - poetry config virtualenvs.create false
       - pwd
       - ls
+      - cd vesselesque
       - cat pyproject.toml
     post_install:
       - poetry install
