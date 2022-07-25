@@ -15,8 +15,7 @@ build:
       - asdf plugin add poetry
       - asdf install poetry latest
       - asdf global poetry latest
-      - poetry config virtualenvs.create true
-      - cd vesselesque
+      - poetry config virtualenvs.create false
     post_install:
       - poetry install
 
