@@ -1,5 +1,6 @@
 Usage
 =====
 
-Hello
+.. automodule:: vesselesque.lets_test
+    :members:
 

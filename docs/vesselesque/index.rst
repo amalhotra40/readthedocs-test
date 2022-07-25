@@ -7,9 +7,6 @@ Now we go deeper into the rabbit hole
 
    This project is under active development.
 
-.. automodule:: vesselesque.lets_test
-    :members:
-
 Contents
 --------
 
