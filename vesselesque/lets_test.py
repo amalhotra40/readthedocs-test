@@ -1,7 +1,7 @@
 import numpy as np
 
 """
-main.py
+lets_test.py
 ====================================
 The core module of my example project
 """
