@@ -5,4 +5,4 @@ poetry config virtualenvs.create true
 cd vesselesque
 cat pyproject.toml
 poetry install
-poetry run sphinx-build ../docs ../source/_build/html
+#poetry run sphinx-build ../docs ../source/_build/html
