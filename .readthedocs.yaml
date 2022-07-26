@@ -12,18 +12,18 @@ build:
   tools: {python: "3.8"}
   commands:
       - sh test.sh
-#  jobs:
-#    pre_create_environment:
-#      - asdf plugin add poetry
-#      - asdf install poetry latest
-#      - asdf global poetry latest
-#      - poetry config virtualenvs.create false
-#    post_install:
-#      - pwd
-#      - poetry install
-#      - pwd
-#      - ls
-## Build documentation in the docs/ directory with Sphinx
-sphinx:
-  configuration: docs/conf.py
-  fail_on_warning: false
+##  jobs:
+##    pre_create_environment:
+##      - asdf plugin add poetry
+##      - asdf install poetry latest
+##      - asdf global poetry latest
+##      - poetry config virtualenvs.create false
+##    post_install:
+##      - pwd
+##      - poetry install
+##      - pwd
+##      - ls
+### Build documentation in the docs/ directory with Sphinx
+#sphinx:
+#  configuration: docs/conf.py
+#  fail_on_warning: false
