@@ -7,3 +7,5 @@ cat pyproject.toml
 poetry install
 pwd
 poetry run sphinx-build ../docs ../_readthedocs/html
+cd ..
+ls
