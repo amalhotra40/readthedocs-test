@@ -6,4 +6,4 @@ cd vesselesque
 cat pyproject.toml
 poetry install
 rm -rf ../_readthedocs/html
-poetry run sphinx-build ../docs/vesselesque ../_readthedocs/html
+poetry run sphinx-build ../vesselesque/docs ../_readthedocs/html
