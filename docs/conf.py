@@ -1,11 +1,6 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
-import sys, os
-sys.path.insert(0, os.path.abspath("."))
-sys.path.insert(0, os.path.abspath("../"))
-
-sys.path.insert(1, os.path.dirname(os.path.abspath("../")) + os.sep + "vesselesque")
 project = "Lumache"
 copyright = "2021, Graziella"
 author = "Graziella"
