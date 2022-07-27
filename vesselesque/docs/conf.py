@@ -13,7 +13,7 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath("../vessel/"))
+sys.path.insert(0, os.path.abspath("../vesselesque/"))
 
 
 # -- Project information -----------------------------------------------------
