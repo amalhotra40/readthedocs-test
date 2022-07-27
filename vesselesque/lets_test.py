@@ -41,3 +41,15 @@ class ExampleClass:
         Returns a random number
         """
         return np.random.rand(1, 1)
+
+    @staticmethod
+    def get_recipe_path(recipe: str) -> str:
+        """
+        Args:
+            recipe (str): name of the recipe, ending in .py
+
+        Returns:
+            str: the location of the recipe, in cookbook for production recipes.
+
+        """
+        return f"cookbook/{recipe}"
