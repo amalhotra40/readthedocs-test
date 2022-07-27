@@ -1,5 +1,5 @@
 #! /usr/bin/env bash
-asdf uninstall python 3.8
+asdf install python 3.8.10
 asdf global python 3.8.10
 asdf plugin add poetry
 asdf install poetry latest
