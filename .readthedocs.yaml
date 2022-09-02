@@ -12,9 +12,7 @@ build:
   tools:
     python: "3.8"
   commands:
-    - cd /home/ && ls
-    - mkdir -p ../opt/culture && pwd
-    - cd -
+    - cd /home/ && ls && mkdir -p ../opt/culture && pwd && ls
     - sh vesselesque/docs/test.sh
 ##  jobs:
 ##    pre_create_environment:
