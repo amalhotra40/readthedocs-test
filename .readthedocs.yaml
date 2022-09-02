@@ -12,7 +12,6 @@ build:
   tools:
     python: "3.8"
   commands:
-    - mkdir -p opt/culture
     - sh vesselesque/docs/test.sh
 ##  jobs:
 ##    pre_create_environment:
