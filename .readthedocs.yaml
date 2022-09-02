@@ -12,7 +12,7 @@ build:
   tools:
     python: "3.8"
   commands:
-    - cd /home/
+    - cd /home/ && ls
     - mkdir -p ../opt/culture && pwd
     - cd -
     - sh vesselesque/docs/test.sh
