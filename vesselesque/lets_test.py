@@ -6,6 +6,15 @@ lets_test.py
 The core module of my example project
 """
 
+# A local config file should reside at this path on each host running the
+# vessel software, whether it's a pi in production or a simulator.
+BAY_CONFIG_PATH = "/opt/culture/bay-config.yaml"
+
+# Load the config file at this path and make available
+# This will be a dict of the keys in the YAML file
+with open(BAY_CONFIG_PATH) as config_file:
+    BAY_CONFIG = yaml.full_load(config_file.read())
+
 
 def about_me(your_name):
     """
