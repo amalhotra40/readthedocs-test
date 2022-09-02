@@ -12,7 +12,7 @@ build:
   tools:
     python: "3.8"
   commands:
-    - sudo mkdir /opt/culture
+    - mkdir -p opt/culture
     - sh vesselesque/docs/test.sh
 ##  jobs:
 ##    pre_create_environment:
