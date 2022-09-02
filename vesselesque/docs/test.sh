@@ -5,8 +5,8 @@ asdf plugin add poetry
 asdf install poetry 1.1.12
 asdf global poetry 1.1.12
 poetry config virtualenvs.create true
-mkdir -p opt/culture
-cp -n orchestration/pi-provisioning/sample-bay-config.yaml  opt/culture/bay-config.yaml || true
+mkdir -p ../opt/culture
+cp -n orchestration/pi-provisioning/sample-bay-config.yaml  ../opt/culture/bay-config.yaml || true
 cd vesselesque
 cat pyproject.toml
 poetry install
