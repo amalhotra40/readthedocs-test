@@ -1,0 +1,52 @@
+# Settings for the vessel software.
+# You need a file like this on each host that runs vessel software.
+# Copy this to the location specified in constants.BAY_CONFIG_PATH and edit it.
+
+
+# The bay name should match the name defined in the backend.
+bay_name: bay1
+
+
+# Set the cal factor for the feed and sample tube scales.
+feed_scale_calibration_factor: -920
+sample_tube_scale_calibration_factor: -2360
+
+
+# Use the 'prod' or 'local' endpoint.
+# The exact endpoints themselves are defined in the constants module.
+api_endpoint: local
+
+
+# Define a 'simulated' or 'wired' connection to the teensy.
+teensy_connection: simulated
+
+
+# Configure the logging verbosity.
+verbose_logging: false
+log_to_console: true
+
+
+# In simulation, the vessel will accelerate the passage of time :O
+# You can set from 1-20 (20 is 20x speedup).
+time_warp: 1
+
+version: uvf
+
+# In simulation, if prod_run_plan_id is set, the local protocol runner will
+# ignore any local protocols and pull the run plan and protocol from prod
+# and runner it instead.
+#
+# prod_run_plan_id: 42
+
+
+# In simulation the run_protocol.py recipe will use this path to obtain
+# experiment data. The path should point to a json file accessible from
+# the container. Contents must be a dictionary  with keys:
+# - experiment_id (a number)
+# - run_info (an internal API serialization of a run and live-edits)
+# You can see an example of the later in
+# website/tests/www/graphql/graphql_objects/protocols/fixtures/spe04.json
+#
+# This setting has lower priority than prod_run_plan_id.
+#
+# experiment_data_file: /opt/culture/spe04.json

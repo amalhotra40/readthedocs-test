@@ -6,6 +6,7 @@ asdf install poetry 1.1.12
 asdf global poetry 1.1.12
 poetry config virtualenvs.create true
 cd vesselesque
+mkdir -p /opt/culture && cp -n ../orchestration/pi-provisioning/sample-bay-config.yaml /opt/culture/bay-config.yaml || true
 cat pyproject.toml
 poetry install
 rm -rf ../_readthedocs/html
